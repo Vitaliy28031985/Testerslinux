@@ -9,14 +9,15 @@ export const testAry = [
    answerCorrect: 'cd',
 },
 
-  {name: '2. Якою командою в ОС Лінукс можна повернутися у батьківську директорію?',
-   a: {answer:'cd', id:'2-cd',},
-   b: {answer:'ls -lh', id:'2-lh',},
-   c: {answer:'echo -e', id:'2-echo',},
-   d: {answer:'cat -A', id:'2-cat',},
-   i: {answer:'dir', id:'2-dir'},
-   answerCorrect: 'cd',
+{name: '2. Якою командою в ОС Лінукс можна повернутися у батьківську директорію?',
+a: {answer:'cd ..', id:'2-cd',},
+b: {answer:'ls -lh', id:'2-lh',},
+c: {answer:'echo -e', id:'2-echo',},
+d: {answer:'cat -A', id:'2-cat',},
+i: {answer:'dir', id:'2-dir'},
+answerCorrect: 'cd ..',
 },
+
 
 {name: '3. Як називається початок скрипта, написаного на мові сценаріїв bash, у вигляді #!/bin/bash?',
    a: {answer:'cowabunga', id:'3-cowabunga',},
